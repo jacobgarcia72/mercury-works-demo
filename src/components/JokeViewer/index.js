@@ -34,7 +34,7 @@ const JokeViewer = () => {
                     className={styles.mainButton}
                     value="Get A New Random Joke"
                     />
-                <a href="https://karljoke.herokuapp.com/">View API Docs</a>
+                <a href="https://karljoke.herokuapp.com/" target='_blank'>View API Docs</a>
             </header>
             <main>
                 {isLoading && <div className={styles.loading}>Loading your joke...</div>}
